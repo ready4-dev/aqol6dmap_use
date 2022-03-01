@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Matthew Hamilton and Caroline Gao  (2022). aqol6dmap_use: Apply AQoL-6D Utility Mapping Models To New Data. Zenodo. Version 0.0.9.0"
+message: "Matthew Hamilton and Caroline Gao  (2022). aqol6dmap_use: Apply AQoL-6D Utility Mapping Models To New Data. Zenodo. https://doi.org/10.5281/zenodo.6317180. Version 0.0.9.0"
 authors:
   - family-names: "Hamilton"
     given-names: "Matthew"
@@ -7,5 +7,6 @@ authors:
     given-names: "Caroline"
 title: "aqol6dmap_use: Apply AQoL-6D Utility Mapping Models To New Data"
 version: 0.0.9.0
+doi: 10.5281/zenodo.6317180
 date-released: 2022-03-01
 url: "https://github.com/ready4-dev/aqol6dmap_use"
