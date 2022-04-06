@@ -3,18 +3,18 @@ output:
   bookdown::pdf_document2:
     includes:
       in_header: preamble.tex
-    pandoc_args: 
+    pandoc_args:
       - '--lua-filter=../Filters/scholarly-metadata.lua'
       - '--lua-filter=../Filters/author-info-blocks.lua'
     toc: no
 date: "`r format(Sys.Date(),'%d %B %Y')`"
 title: Apply AQoL-6D Utility Mapping Models To New Data
 author:
-  - Matthew P Hamilton:
-      email: matthew.hamilton@orygen.org.au
-      institute: [Orygen]
-      correspondence: true
-      equal_contributor: "yes"
+  - name: Matthew P Hamilton
+    email: matthew.hamilton@orygen.org.au
+    institute: [Orygen]
+    correspondence: true
+    equal_contributor: "yes"
   - name: Caroline X Gao
     email: caroline.gao@orygen.org.au
     institute: [Orygen, CYMH, Monash]
