@@ -21,7 +21,6 @@ institute:
   - Orygen: Orygen, Parkville, Australia
   - CYMH: Centre for Youth Mental Health; University of Melbourne, Parkville, Australia
   - Monash: School of Public Health and Preventive Medicine, Monash University, Clayton, Australia
-
 params:
   eval_1L_lgl: True
   output_type_1L_chr: PDF
@@ -110,7 +109,8 @@ The prediction dataset must also include both a unique client identifier variabl
 predn_ds_ls <- make_predn_metadata_ls(data_tb,
                                       id_var_nm_1L_chr = "UID",
                                       msrmnt_date_var_nm_1L_chr = "Date",
-                                      predr_vars_nms_chr = c(PHQ9 = "PHQ_total",SOFAS = "SOFAS_total"),
+                                      predr_vars_nms_chr = c(PHQ9 = "PHQ_total",
+                                                             SOFAS = "SOFAS_total"),
                                       round_var_nm_1L_chr = "Timepoint",
                                       round_bl_val_1L_chr = "Baseline",
                                       utl_var_nm_1L_chr = "AQoL6D_HU",
